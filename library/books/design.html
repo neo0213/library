@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Book</title>
+    <script src="https://kit.fontawesome.com/cd80ff2ac0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="loader-wrapper">
+
+        <div id="loader">
+            <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+        </div>
+        
+      </div>
+      <div id="content">
+        <nav>
+            <div class="container">
+                <div class="nav">
+                    <h2 style="margin-left: 20px;">TIP</h2>
+                    <ul id="nav-ul">
+                        <li id="home"><a href="/index.html">Home</a></li>
+                        <li id="borbooks"><a href="#">My books</a></li>
+                    </ul>
+                    <button id="logout" style="margin-right:20px;border: none;background-color:white !important;font-weight: 600;cursor: pointer;">Logout <i class="fa-solid fa-right-from-bracket" style="color: #000000;margin-left: 3px;"></i></button>
+                </div>
+            </div>
+    
+        </nav>
+
+
+    <div class="container">
+        <div class="wrapper">
+            <input type="text" id="bookname" value="design" style="display: none;">
+            <img src="/images/b3.jpeg" alt="">
+            <div  style="display: flex;flex-direction: column;justify-content: space-between;">
+                <div>
+                    <h1>Design Patterns: Elements of Reusable Object-Oriented Software</h1>
+                    <p style="color: #7d7d7d; font-style: italic;">Erich Gamma</p>
+                    <p style="color: #454545;">Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves.
+
+
+                        The authors begin by describing what patterns are and how they can help you design object-oriented software. They then go on to systematically name, explain, evaluate, and catalog recurring designs in object-oriented systems. With Design Patterns as your guide, you will learn how these important patterns fit into the software development process, and how you can leverage them to solve your own design problems most efficiently. </p>
+                </div>
+                <div style="text-align: end;">
+                    <button class="borrow" id="borrow">Borrow this book</button>
+                </div>
+               
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<script src="/index.js"></script>
+<script src="/borrow.js"></script>
+</body>
+</html>

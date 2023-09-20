@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/cd80ff2ac0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="loader-wrapper">
+
+        <div id="loader">
+            <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
+        </div>
+        
+      </div>
+      <div id="content">
+    <nav>
+        <div class="container">
+            <div class="nav">
+                <h2 style="margin-left: 20px;">TIP</h2>
+                <ul id="nav-ul">
+                    <li id="home"><a href="/index.html">Home</a></li>
+                    <li id="borbooks"><a href="#">My books</a></li>
+                </ul>
+                <button id="logout" style="margin-right:20px;border: none;background-color:white !important;font-weight: 600;cursor: pointer;">Logout <i class="fa-solid fa-right-from-bracket" style="color: #000000;margin-left: 3px;"></i></button>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container" style="margin-top: 50px;">
+        <h1>Popular Programming Books</h1>
+    </div>
+    
+    <div class="container" style="position: relative;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;gap: 20px;overflow-x: scroll;">
+
+        <a href="/books/refactoring.html" class="card">
+            <img src="/images/b1.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: black;">
+              <span>Refactoring</span>
+              <span>Improving the Design of Existing Code</span>
+              <span>Martin Fowler, Kent Beck, John Brant, William Opdyke, <br> Don Roberts</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-code" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/clean.html" class="card">
+            <img src="/images/b2.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: white;"">
+              <span>Clean Code</span>
+              <span> A Handbook of Agile Software Craftsmanship</span>
+              <span>Robert C. Martin</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-code" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/design.html" class="card">
+            <img src="/images/b3.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer">
+              <span>Design Patterns</span>
+              <span>Elements of Reusable Object-Oriented <br> Software</span>
+              <span>Erich Gamma</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-code" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/effective.html" class="card">
+            <img src="/images/b4.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer">
+              <span>Effective Java</span>
+              <span></span>
+              <span>Joshua Bloch</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-code" style="color: #000000;"></i>
+            </span>
+        </a>
+
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+        <h1>Hot picks</h1>
+    </div>
+    
+    <div class="container" style="position: relative;display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 20px;overflow-x: scroll;">
+
+        <a href="/books/1984.html" class="card">
+            <img src="/images/b5.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: black;">
+              <span style="color:white">1984 </span>
+              <span></span>
+              <span style="color:white">George Orwell</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-earth-asia" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/mockingbird.html" class="card">
+            <img src="/images/b6.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: black;">
+              <span style="color:white">To Kill a Mockingbird</span>
+              <span></span>
+              <span style="color:white">Harper Lee</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-earth-asia" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/meditations.html" class="card">
+            <img src="/images/b7.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: black;">
+              <span style="color:white">Meditations</span>
+              <span></span>
+              <span style="color:white">Marcus Aurelius</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-earth-asia" style="color: #000000;"></i>
+            </span>
+        </a>
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+        <h1>All available books</h1>
+    </div>
+    
+    <div class="container" style="position: relative;display: grid;grid-template-columns: 1fr 1fr;gap: 20px;overflow-x: scroll;">
+
+        <a href="/books/refactoring.html" class="card">
+            <img src="/images/b1.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: black;">
+              <span>Refactoring</span>
+              <span>Improving the Design of Existing Code</span>
+              <span>Martin Fowler, Kent Beck, John Brant, William Opdyke, <br> Don Roberts</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-code" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/clean.html" class="card">
+            <img src="/images/b2.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: white;"">
+              <span>Clean Code</span>
+              <span> A Handbook of Agile Software Craftsmanship</span>
+              <span>Robert C. Martin</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-code" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/design.html" class="card">
+            <img src="/images/b3.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer">
+              <span>Design Patterns</span>
+              <span>Elements of Reusable Object-Oriented <br> Software</span>
+              <span>Erich Gamma</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-code" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/effective.html" class="card">
+            <img src="/images/b4.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer">
+              <span>Effective Java</span>
+              <span></span>
+              <span>Joshua Bloch</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-code" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/1984.html" class="card">
+            <img src="/images/b5.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: black;">
+              <span style="color:white">1984 </span>
+              <span></span>
+              <span style="color:white">George Orwell</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-earth-asia" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/mockingbird.html" class="card">
+            <img src="/images/b6.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: black;">
+              <span style="color:white">To Kill a Mockingbird</span>
+              <span></span>
+              <span style="color:white">Harper Lee</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-earth-asia" style="color: #000000;"></i>
+            </span>
+        </a>
+
+        <a href="/books/meditations.html" class="card">
+            <img src="/images/b7.jpeg" alt="balloon with an emoji face" class="card__img">
+            <span class="card__footer" style="color: black;">
+              <span style="color:white">Meditations</span>
+              <span></span>
+              <span style="color:white">Marcus Aurelius</span>
+            </span>
+            <span class="card__action">
+                <i class="fa-solid fa-earth-asia" style="color: #000000;"></i>
+            </span>
+        </a>
+    </div>
+
+</div>
+    
+<script src="/index.js"></script>
+</body>
+</html>
